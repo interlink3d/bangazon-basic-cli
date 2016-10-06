@@ -1,6 +1,6 @@
 using Bangazon.Orders;
 
-namespace Bangazon.Payments
+namespace Bangazon.Payments 
 {
   class Paypal: Payment {
 

@@ -8,7 +8,7 @@ namespace Bangazon.Payments
     public string bankName { get; set; }
     public string accountNumber { get; set; }
 
-    public CreditCard(Order order): base(order)
+    public CreditCard(Order order): base(order) 
     {
 
     }

@@ -7,7 +7,7 @@ namespace Bangazon.Customers
     public string firstName { get; set; }
     public string lastName { get; set; }
 
-    public void greet() 
+    public void greet()
     {
       Console.WriteLine($"Welcome {this.firstName} {this.lastName}!");
     }

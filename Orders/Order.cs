@@ -9,11 +9,11 @@ namespace Bangazon.Orders
     public List<string> products
     {
       get {
-        return _products;
+        return _products; 
       }
     }
 
-    private Guid _orderNumber = System.Guid.NewGuid();
+    private Guid _orderNumber = Guid.NewGuid();
     
     public Guid orderNumber {
       get {

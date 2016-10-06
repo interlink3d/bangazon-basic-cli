@@ -22,7 +22,7 @@ namespace Bangazon
                 firstOrder.addProduct(args[i]);
             }
 
-            Console.WriteLine(firstOrder.listProducts());
+            Console.WriteLine(firstOrder.listProducts()); 
 
             // Create a payment
             Payment payment = null;
