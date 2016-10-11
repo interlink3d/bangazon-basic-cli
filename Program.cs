@@ -3,7 +3,7 @@ using Bangazon.Customers;
 using Bangazon.Orders;
 using Bangazon.Payments;
 
-namespace Bangazon
+namespace Bangazon 
 {
     public class Program
     {
